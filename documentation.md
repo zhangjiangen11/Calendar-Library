@@ -181,17 +181,6 @@ Calendar.Date holds a specific date composed of year, month, and day. It is used
 **[month](#date-prop-month)** : int  
 **[year](#date-prop-year)** : int  
 
-## Property Descriptions
-
-<a id="date-prop-day"></a>**day** : int  
->The day of this date. Valid range: `1–31` depending on the month.
-
-<a id="date-prop-month"></a>**month** : int  
->The month of this date (`1–12`) representing January–December.
-
-<a id="date-prop-year"></a>**year** : int  
->The year of this date.
-
 ## Methods
 [add_days](#date-method-add_days)(days: int) : void  
 [add_months](#date-method-add_months)(months: int) : void  
@@ -213,6 +202,17 @@ Calendar.Date holds a specific date composed of year, month, and day. It is used
 [subtract_months](#date-method-subtract_months)(months: int) : void  
 [subtract_years](#date-method-subtract_years)(years: int) : void  
 [today](#date-method-today)() : Date (static)  
+
+## Property Descriptions
+
+<a id="date-prop-day"></a>**day** : int  
+>The day of this date. Valid range: `1–31` depending on the month.
+
+<a id="date-prop-month"></a>**month** : int  
+>The month of this date (`1–12`) representing January–December.
+
+<a id="date-prop-year"></a>**year** : int  
+>The year of this date.
 
 ## Method Descriptions
 
