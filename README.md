@@ -29,5 +29,9 @@ For each CalendarLocale you can also specify the standard date format for that l
 ![Calendar Library](./docs/calendar_library_screen.png)
 
 
+## Installation
+The library is a script addon so you won't find it in the Plugins list after download (no need to turn it on). You use it by creating a new Calendar instance from any script.
+
+
 ## Documentation
 Full documentation is supported in the editor through the Documentation Help section. Search for Calendar, Calendar.Date and CalendarLocale.
