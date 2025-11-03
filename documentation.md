@@ -214,7 +214,7 @@ Inherits: `RefCounted < Object`
 **A utility class for storing and handling dates.**
 
 ## Description
-Calendar.Date holds a specific date composed of year, month, and day. It is used throughout Calendar wherever a full date object is required.
+Date stores data about a specific date, composedof the year, month, and day. It is used by [Calendar](#calendar) where information about an entire date is practical (rather than only a year, a month, or a day).
 
 ## Properties
 **[day](#date-prop-day)** : int  
@@ -249,7 +249,7 @@ Calendar.Date holds a specific date composed of year, month, and day. It is used
 >The day of this date. Valid range: `1–31` depending on the month.
 
 <a id="date-prop-month"></a>**month** : int  
->The month of this date (`1–12`) representing January–December.
+>The month of this date from `1` to `12` representing January–December.
 
 <a id="date-prop-year"></a>**year** : int  
 >The year of this date.
